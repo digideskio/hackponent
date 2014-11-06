@@ -1,0 +1,8 @@
+:root {
+	--yelpy-red: #c41200;
+}
+
+:host {
+	color: var(--yelpy-red);
+	font-weight: bold;
+}
