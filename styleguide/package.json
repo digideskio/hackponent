@@ -1,0 +1,26 @@
+{
+  "name": "yelponent-styleguide",
+  "version": "0.0.1",
+  "homepage": "https://github.com/verekia/yelponent/styleguide",
+  "authors": [
+    "Jonathan Verrecchia <jverrecc@yelp.com>",
+    "Giuseppe Gurgone <ggurgone@yelp.com>"
+  ],
+  "description": "Yelp Hackathon Web Components - Styleguide",
+  "keywords": [
+    "yelp",
+    "web",
+    "components",
+    "polymer"
+  ],
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-myth": "^1.0.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-util": "^3.0.1",
+    "myth": "^1.2.1"
+  },
+  "scripts": {
+    "watch-myth": "myth --watch y/* y/dist/"
+  }
+}
