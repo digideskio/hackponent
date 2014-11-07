@@ -128,6 +128,15 @@ xmp {
     color: #333;
     text-decoration: none;
     margin-left: 10px;
+    color: #444;
+    font-weight: bold;
+    font-size: 15px;
+    color: #3b65a7;
+}
+
+.sidebar-content a:hover {
+    color: #3b65a7;
+    text-decoration:underline;
 }
 
 .sidebar-content img {
@@ -175,4 +184,27 @@ h1 {
 
 h2 {
     font-size: 21px;
+}
+
+header a {
+    color: #3b65a7;
+    text-decoration:none;
+}
+
+header a:hover {
+    color: #3b65a7;
+    text-decoration:underline;
+}
+
+header .icon {
+    margin-right: 3px;
+}
+
+header .icon img {
+    height: 20px;
+}
+
+header:hover .icon img {
+        -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
 }
