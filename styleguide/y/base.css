@@ -181,6 +181,23 @@ xmp {
     top: 300px;
 }
 
+.main-title {
+    color: #77cbde;
+    position: absolute;
+    left: 30px;
+    top: 75px;
+    font-size: 40px;
+}
+
+.main-title a {
+    color: #77cbde;
+    text-decoration: none;
+}
+
+.main-title a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     margin-bottom: 22px;
 }
