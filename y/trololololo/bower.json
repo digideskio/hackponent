@@ -1,0 +1,26 @@
+{
+  "name": "y-trololololo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/verekia/yelponent/y/trolololo",
+  "authors": [
+    "Giuseppe Gurgone <ggurgone@yelp.com>"
+  ],
+  "description": "trololololo (Polymer) web component",
+  "keywords": [
+    "yelp",
+    "web components",
+    "polymer",
+    "trolololo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.2"
+  }
+}
