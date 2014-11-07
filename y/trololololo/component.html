@@ -1,15 +1,25 @@
-<polymer-element name="y-trololololo" extends="video" on-click="togglePlay">
+<polymer-element name="y-trololololo" extends="video" on-click="troll">
     <script>
         Polymer({
             created: function () {
                 this.setAttribute('src', 'http://trololololololololololo.com/trololo.mp4');
                 this.style.width = "100%";
                 this.style.height = "auto";
-                this._isPlaying = false;
+                this._isPlaying = typeof this.getAttribute('autoplay') != 'undefined';
+                this._isPlaying && this.announceTroll();
                 this.super();
             },
-            togglePlay: function () {
-                this._isPlaying ? this.play() : this.pause();
+            announceTroll: function () {
+                console && console.log('trolololololling');
+            },
+            troll: function () {
+                if (this._isPlaying) {
+                    this.pause();
+                } else {
+                    this.play();
+                    this.announceTroll();
+                }
+
                 this._isPlaying = !this._isPlaying;
             }
         });
