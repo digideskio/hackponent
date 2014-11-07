@@ -16,16 +16,17 @@
         <link rel="import" href="components.html">
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="y/theme.css">
     </head>
     <body>
-        <header>
-            <h1>YelpOnents - Yelpy Web Components</h1>
+<!--         <header>
+            
         </header>
 
         <nav>
         </nav>
 
-        <main>
+        <main> -->
             <!--
                 Component
                 <section>
@@ -48,6 +49,75 @@
                     <p>text</p>
                 </section>
             -->
-        </main>
+<!--         </main> -->
+
+        <div class="top-shelf">
+            <img class="yelponent-logo" src="img/yelponent.png">
+        </div>
+
+        <div class="clearfix content">
+            <div class="sidebar">
+                <div class="sidebar-content">
+                    <ul>
+                        <li><h2>Yelp Web Components</h2></li>
+                        <li><a href="#">Buttons</a></li>
+                        <li><a href="#">Layout</a></li>
+                        <li><a href="#">Forms</a></li>
+                    </ul>
+                    <img src="img/yelp-logo.png">
+                </div>
+            </div>
+
+            <div class="main">
+                <h1>Buttons</h1>
+                <div class="styleguide-section">
+                    <xmp><y-button>
+                        <y-button primary>
+                    </xmp>
+                    <div class="theme">
+                        <y-button>Default</y-button>
+                        <y-button primary>Primary</y-button>
+                    </div>
+                    <y-button>Default</y-button>
+                    <y-button primary>Primary</y-button>
+                </div>
+
+                <div class="styleguide-section">
+                    <xmp><y-button disabled>
+                        <y-button disabled primary>
+                    </xmp>
+                    <div class="theme">
+                        <y-button disabled>Default (disabled)</y-button>
+                        <y-button disabled primary>Primary (disabled)</y-button>
+                    </div>
+                    <y-button disabled>Default (disabled)</y-button>
+                    <y-button disabled primary>Primary (disabled)</y-button>
+                </div>
+
+                <div class="styleguide-section">
+                    <xmp><y-button small>
+                        <y-button small primary>
+                    </xmp>
+                    <div class="theme">
+                        <y-button small>Small Default</y-button>
+                        <y-button small primary>Small Primary</y-button>
+                    </div>
+                    <y-button small>Small Default</y-button>
+                    <y-button small primary>Small Primary</y-button>
+                </div>
+
+                <div class="styleguide-section">
+                    <xmp><y-button small disabled>
+                        <y-button small disabled primary>
+                    </xmp>
+                    <div class="theme">
+                        <y-button small disabled>Small Default (disabled)</y-button>
+                        <y-button small disabled primary>Small Primary (disabled)</y-button>
+                    </div>
+                    <y-button small disabled>Small Default (disabled)</y-button>
+                    <y-button small disabled primary>Small Primary (disabled)</y-button>
+                </div>
+            </div> <!-- main -->
+        </div> <!-- clearfix -->
     </body>
 </html>

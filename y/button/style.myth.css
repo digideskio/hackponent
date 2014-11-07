@@ -47,3 +47,9 @@
 :host([primary][disabled]:hover) {
 	background: #DD3F3F;
 }
+
+:host([small]) {
+	padding: 5px 8px;
+	font-size: 12px;
+	line-height: 14px;
+}
