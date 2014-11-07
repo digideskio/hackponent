@@ -12,7 +12,7 @@ gulp.task("myth-styles", function() {
     .pipe(gulp.dest("./y/dist/"));
 });
 
-gulp.task("myth", ["styles"], function() {
+gulp.task("default", ["myth-styles"], function() {
   watch = true;
   // watch all CSS to reload the task
   gulp.watch("./y/*", ["myth-styles"]);

@@ -1,5 +1,7 @@
 /**
     import themes here
 
-    eg. @import "y/dist/button.css";
+    eg. @import "y/dist/base.css";
 */
+
+@import "y/dist/base.css";
