@@ -20,6 +20,7 @@
     </head>
     <body unresolved>
         <div class="top-shelf">
+            <h1 class="main-title"><a target="_blank" href="https://twitter.com/search?q=%23YelpHack15">#YelpHack15</a></h1>
             <img class="yelponent-logo" src="img/yelponent.png">
         </div>
 
@@ -29,8 +30,8 @@
                     <ul>
                         <li><h2>Yelp Web Components</h2></li>
                         <li><a href="#buttons">Buttons</a></li>
+                        <li><a href="#media-block">Media Block</a></li>
                         <li><a href="#trololololo">Trololololo</a></li>
-                        <li><a href="#">Forms</a></li>
                     </ul>
                     <img src="img/yelp-logo.png">
                 </div>
@@ -43,7 +44,7 @@
                         <a href="#buttons">Buttons</a></h1>
                 </header>
                 <div class="styleguide-section">
-                    <xmp><y-button>
+                    <xmp class="whitespace"><y-button>
                         <y-button primary>
                     </xmp>
                     <div class="theme">
@@ -55,7 +56,7 @@
                 </div>
 
                 <div class="styleguide-section">
-                    <xmp><y-button disabled>
+                    <xmp class="whitespace"><y-button disabled>
                         <y-button disabled primary>
                     </xmp>
                     <div class="theme">
@@ -67,7 +68,7 @@
                 </div>
 
                 <div class="styleguide-section">
-                    <xmp><y-button small>
+                    <xmp class="whitespace"><y-button small>
                         <y-button small primary>
                     </xmp>
                     <div class="theme">
@@ -79,7 +80,7 @@
                 </div>
 
                 <div class="styleguide-section">
-                    <xmp><y-button small disabled>
+                    <xmp class="whitespace"><y-button small disabled>
                         <y-button small disabled primary>
                     </xmp>
                     <div class="theme">
@@ -90,13 +91,40 @@
                     <y-button small disabled primary>Small Primary (disabled)</y-button>
                 </div>
 
+                <header id="media-block">
+                    <h1>
+                        <a href="../y/media-block/" class="icon"><img src="img/polymer-icon.png"></a>
+                        <a href="#media-block">Media Block</a></h1>
+                </header>
+                <div class="styleguide-section">
+<xmp><y-media-block>
+    <y-avatar>
+    <y-story>
+</y-media-block>
+
+<y-media-block right>
+    <y-avatar>
+    <y-story>
+</y-media-block></xmp>
+                    <y-media-block>
+                        <y-avatar><img src="../y/media-block/avatar.png"></y-avatar>
+                        <y-story>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</y-story>
+                    </y-media-block>
+                    <br>
+                    <y-media-block right>
+                        <y-avatar><img src="../y/media-block/avatar.png"></y-avatar>
+                        <y-story>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</y-story>
+                    </y-media-block>
+                </div>
+
+
                 <header id="trololololo">
                     <h1>
                         <a href="../y/trololololo/" class="icon"><img src="img/polymer-icon.png"></a>
                         <a href="#trololololo">Trololololo</a></h1>
                 </header>
                 <div class="styleguide-section">
-                    <xmp><video is="y-trololololo">
+                    <xmp class="whitespace"><video is="y-trololololo">
                         <video is="y-trololololo" autoplay>
                         <video is="y-trololololo" controls>
                     </xmp>

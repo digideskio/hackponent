@@ -1,0 +1,28 @@
+{
+  "name": "y-media-block",
+  "version": "0.0.1",
+  "homepage": "https://github.com/verekia/yelponent/y/media-block",
+  "authors": [
+    "Jonathan Verrecchia <jverrecc@yelp.com>",
+    "Giuseppe Gurgone <ggurgone@yelp.com>"
+  ],
+  "description": "Yelp Hackathon Web Components",
+  "keywords": [
+    "yelp",
+    "web",
+    "components",
+    "polymer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.2",
+    "myth": "segmentio/myth#~1.2.1"
+  }
+}
