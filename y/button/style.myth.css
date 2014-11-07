@@ -1,8 +1,49 @@
-:root {
-	--yelpy-red: #c41200;
+:host {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 14px;
+	background: #ddd;
+	padding: 6px;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 7px 16px;
+	border: 1px solid;
+	border-color: #cdcdcd;
+	border-color: rgba(0, 0, 0, 0.2);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #333;
+	border-color: #ccc;
 }
 
-:host {
-	color: var(--yelpy-red);
-	font-weight: bold;
+:host(:hover) {
+	background: #eee;
+}
+
+:host([disabled]) {
+	background: #ddd;
+    opacity: 0.4;
+    cursor: default;
+}
+
+:host([primary]){
+	background: #DD3F3F;
+	border-color: #a93737;
+	color: white;
+}
+
+:host([primary]:hover) {
+	background: #eD4F4F;
+}
+
+:host([primary][disabled]:hover) {
+	background: #DD3F3F;
 }
