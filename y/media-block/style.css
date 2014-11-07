@@ -1,0 +1,27 @@
+:host(:before),
+:host(:after) {
+  content: " ";
+  display: table;
+}
+
+:host(:after) {
+  clear: both;
+}
+
+:host {
+  background: #f5f5f1;
+  border: 1px solid #e5e5e1;
+  padding: 15px;
+  width: 470px;
+}
+
+:host ::content y-avatar {
+  margin-right: 20px;
+  display: block;
+  float: left;
+}
+
+:host([right]) ::content y-avatar {
+  float: right;
+  margin: 0 0 0 20px;
+}

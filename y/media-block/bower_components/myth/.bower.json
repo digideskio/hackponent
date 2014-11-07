@@ -1,0 +1,25 @@
+{
+  "name": "myth",
+  "version": "1.2.1",
+  "license": "MIT",
+  "description": "A CSS preprocessor that acts like a polyfill for future versions of the spec.",
+  "ignore": [
+    "**/.*",
+    "bin",
+    "test"
+  ],
+  "scripts": [
+    "myth.js"
+  ],
+  "main": "myth.js",
+  "homepage": "https://github.com/segmentio/myth",
+  "_release": "1.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.1",
+    "commit": "9ae90f8c2833ed1c05b0a98cd1dba0a41b6028ee"
+  },
+  "_source": "git://github.com/segmentio/myth.git",
+  "_target": "~1.2.1",
+  "_originalSource": "segmentio/myth"
+}
