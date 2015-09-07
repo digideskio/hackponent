@@ -1,4 +1,4 @@
-yelponent
+hackponent
 =========
 
-Yelp Hackathon Web Components Framework
+Hackathon Web Components Framework
