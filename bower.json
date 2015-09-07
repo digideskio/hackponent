@@ -1,14 +1,14 @@
 {
-  "name": "yelponent",
+  "name": "hackponent",
   "version": "0.0.1",
-  "homepage": "https://github.com/verekia/yelponent",
+  "homepage": "https://github.com/verekia/hackponent",
   "authors": [
-    "Jonathan Verrecchia <jverrecc@yelp.com>",
-    "Giuseppe Gurgone <ggurgone@yelp.com>"
+    "Jonathan Verrecchia <jverrecc>",
+    "Giuseppe Gurgone <ggurgone>"
   ],
-  "description": "Yelp Hackathon Web Components",
+  "description": "Hackathon Web Components",
   "keywords": [
-    "yelp",
+    "hack",
     "web",
     "components",
     "polymer"
